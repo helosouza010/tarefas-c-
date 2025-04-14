@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+main() {
+	int valor1,valor2,valor3;
+printf("Valor 1: ")	;
+scanf("%i",&valor1);
+	printf("valor 2: ");
+	scanf("%i",&valor2);
+		valor3=valor1+valor2;
+
+	if ((valor3%2)==0){
+		
+	 printf("%i o resultado e par",valor3);
+	}else{
+		
+		printf("%i o resultado e impar",valor3);
+	}
+	
+	
+}

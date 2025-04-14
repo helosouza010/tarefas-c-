@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+main(){
+	int n1,n2,freq,med;
+	
+	printf("nota1: ");
+	scanf("%i",&n1);
+	printf("nota2: ");
+	scanf("%i",&n2);
+	printf("frequencia: ");
+	scanf("%i",&freq);
+	
+	med=(n1+n2)/2;
+	if(med>7 and freq>=75){
+		printf("aprovado: ");
+	}else{
+		printf("reprovado: ");
+	}
+	
+	
+}

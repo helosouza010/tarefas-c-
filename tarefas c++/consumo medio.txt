@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+main () {
+	float x,y, consumo;
+	
+	printf("Informe a distancia em Km: ");
+	scanf("%f",&x);
+	
+	printf("Informe o gasto total de combustivel: ");
+	scanf("%f",&y);
+	
+	consumo=x/y;
+	printf("Consumo medio por Km: %f \n",consumo);
+	
+	
+	
+}

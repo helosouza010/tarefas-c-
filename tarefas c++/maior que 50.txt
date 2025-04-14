@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+main (){
+	int met,dobro,numero;
+	printf("Insira um numero: ");
+	scanf("%i",&numero);
+	if (numero>50) {
+	
+		met=numero/2;
+		printf("o resultado sera a metade dele: %i",met);
+    }else {
+    	dobro=numero*2;
+    	printf("o resultado sera o dobro dele:  %i",dobro);	
+	}

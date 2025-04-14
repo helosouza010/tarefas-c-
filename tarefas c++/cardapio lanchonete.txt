@@ -1,0 +1,60 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+main (){
+	int cod,quant;
+	float valor;
+	printf("codigo do pedido: ");
+	scanf("%i",&cod);
+	printf("quantidade: ");
+	scanf("%i",&quant);
+	
+if (cod==100){
+	valor= 7.50*quant;
+	printf("Valor do pedido:  %f\n",valor);
+	
+	}else
+	if(cod==101){
+		valor= 5.50*quant;
+		printf("valor do pedido: %f\n",valor);
+		
+	}else
+	if(cod==103){
+		valor-10.50*quant;
+			printf("valor do pedido: %f\n",valor);
+		
+	}else
+	if(cod==104){
+		valor=11.00*quant;
+	    	printf("valor do pedido: %f\n",valor);
+		
+	}else
+	if(cod==105){
+		valor=13.50*quant;
+	printf("valor do pedido: %f\n",valor);
+	
+	}else
+	if(cod==106){
+		valor-3.50*quant;
+		printf("valor do pedido: %f\n",valor);
+		
+	}else
+	printf("produto nao encontrado");
+	
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+main(){
+	int num;
+	printf("insira um numero: ");
+	scanf("%i",&num);
+	
+	if ((num%3) ==0){
+		printf("%i e multiplo de 3",num);
+	}else{
+		
+		((num%3)!=0);
+		printf("%i nao e multiplo de 3",num);
+	}

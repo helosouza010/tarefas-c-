@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+main (){
+	int cat1,cat2,hip;
+	printf("HIPOTENUSA \n \n");
+	
+	printf("Valor do primeiro cateto:  ");
+	scanf("%i",&cat1);
+	printf("Valor do segundo cateto: ");
+	scanf("%i",&cat2);
+	 
+	 hip= pow(cat1,2) + pow(cat2,2);
+	 hip=sqrt(hip);
+	 	printf("Valor da Hipotenusa:  %i \n",&hip);
+
+//se é int entao usa %i
+	
+	
+	
+}

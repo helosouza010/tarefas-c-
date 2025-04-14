@@ -1,0 +1,152 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+main(){
+	int mamifero,aves,repteis;
+	int quadrupedes,bipedes,voadores,aquaticos,naovoadores,nadadoras,rapina,comcasco,carnivoros,sempatas;
+	int carnivoro,herbivoro,onivoro,frutifero,tropical,polar;
+	
+	printf("1 para sim e 0 para não");
+	printf("Mamifero?");
+	scanf("%i",&mamifero);
+
+if(mamifero==1){
+	printf("Quadrupede?");
+	scanf("%i",&quadrupedes);
+	}
+	if(quadrupedes==1){
+		printf("carnivoro?");
+		scanf("%i",&carnivoro);}
+	if(carnivoro==1){
+		printf("Leão");
+		
+	printf("Herbivoro?");
+	scanf("%i",&herbivoro);}
+		if (herbivoro==1){
+		printf("Cavalo");
+		
+		printf("Bipede?");
+	scanf("%i",&bipedes);}
+	if(bipedes==1){
+		printf("Onivoro?");
+		scanf("%i",&onivoro);}
+		
+		if(onivoro==1){
+			printf("Homem");
+			
+		
+		printf("Frutifero?");
+		scanf("%i",&frutifero);}
+		
+		if(frutifero==1){
+			printf("Macaco");
+			
+		
+		printf("Voador?");
+		scanf("%i",&voadores);}
+		if(voadores==1){
+			printf("Morcego");
+			
+		
+		printf("Aquatico?");
+		scanf("%i",&aquaticos);}
+		
+		if(aquaticos==1){
+			printf("Baleia");
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		printf("Ave?");
+		scanf("%i",&aves);}
+		
+		if(aves==1){
+			printf("Nao voador?");
+			scanf("%i",&naovoadores);
+				}
+				
+				if (naovoadores==1){
+				printf("Tropical?");
+				scanf("%i",&tropical);
+				}
+			
+			        if(tropical==1){
+					printf("Avestruz");
+					
+	              	
+	              	printf("E de clima polar?");
+	              	scanf("%i",&polar);}
+	              	
+		if(polar==1){
+			printf("Pinguim");
+			
+		
+		printf("Nadador?");
+		scanf("%i",&nadadoras);}
+		
+		if(nadadoras==1){
+			printf("Pato");
+			
+		
+		printf("Rapina?");
+		scanf("%i",&rapina);}
+		
+		if (rapina==1){
+		printf("Aguia");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		printf("Reptil?");
+		scanf("%i",&repteis);}
+		
+		if(repteis==1){
+			printf("Tem casco?");
+			scanf("%i",&comcasco);}
+			
+			if(comcasco==1){
+				printf("Tartaruga");
+				
+			printf("Carivoro?");
+			scanf("%i",&carnivoros);}	
+			if(carnivoros==1){
+				printf("Crocodilo");
+				
+			
+			printf("Sem patas?");
+			scanf("%i",&sempatas);}
+			if(sempatas==1) {
+				printf("Cobra");
+				
+			}
+			system("pause");
+		}
+		
+		
+		
+		
+	
+	
+	

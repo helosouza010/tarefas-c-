@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+main(){
+	int id;
+	printf("idade: ");
+	scanf("%i",&id);
+	 if (id==5 or id<=7){
+	 	printf("pertence ao infantil A");
+	 }else
+	 if(id==8 or id<=10){
+	 	printf("pertence ao infantil B");
+	 }else
+	 if (id==11 or id<=13){
+	 	printf("pertence ao juvenil A");
+	 }else
+	 if (id==14 or id<=17){
+	 	printf("pertence ao juvenil B");
+	 }else
+	 if (id>=18){
+	 	printf ("pertence ao Senior");
+	 }
+	
+	
+	
+}
